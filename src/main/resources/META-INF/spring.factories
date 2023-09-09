@@ -1,2 +1,3 @@
 org.springframework.boot.SpringApplicationRunListener=com.example.testdemo.springboot.TestListener
 org.springframework.context.ApplicationContextInitializer=com.example.testdemo.springboot.TestApplicationContextIntializers
+org.springframework.context.ApplicationListener=com.example.testdemo.springboot.earlyEvent.TestEarlyEventListener

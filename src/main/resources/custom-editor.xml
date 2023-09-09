@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     <!-- 将User类交由Spring容器管理-->
-    <bean id="user" class="com.example.testdemo.spring.propertyeditor.TestDateComponent">
+    <bean id="testDateComponent" class="com.example.testdemo.spring.propertyeditor.TestDateComponent">
         <!-- 给对象属性注入值-->
         <!-- 相当于：user.setName("王二");-->
         <property name="date" value="王二"></property>

@@ -19,11 +19,12 @@ import java.util.Set;
 public class TestdemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication springApplication = new SpringApplication(new Class[]{TestdemoApplication.class});
-		SpringApplicationHook hook = (springApplication1) -> new TestApplicationHook();
-		SpringApplication.withHook(hook,()->{
-			springApplication.run(args);
-		});
+		SpringApplication springApplication = new SpringApplication(TestdemoApplication.class);
+		springApplication.run(args);
+//		SpringApplicationHook hook = (springApplication1) -> new TestApplicationHook();
+//		SpringApplication.withHook(hook,()->{
+//			springApplication.run(args);
+//		});
 
 //		SpringApplication.run(TestdemoApplication.class, args);
 //		List<TestListener> list = new ArrayList<>();
