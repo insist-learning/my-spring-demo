@@ -1,0 +1,5 @@
+
+custome-name: "customeName"
+spring:
+  config:
+    import: custom-import2.yml
